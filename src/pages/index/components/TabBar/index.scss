@@ -1,0 +1,66 @@
+.tab-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: rem(50px);
+  border-top: 1px solid #b6b6b6;
+  background-color: rgba(246, 246, 246, $alpha: 0.95);
+  display: flex;
+
+  .tab-item {
+    flex: 1;
+    font-size: rem(11px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+
+    .tab-icon {
+      margin-bottom: rem(4px);
+      width: rem(25px);
+      height: rem(25px);
+      background-size: cover;
+    }
+
+    &.active {
+      color: #000;
+    }
+
+    &.home {
+      .tab-icon {
+        background-image: url('./image/homeIcon.png');
+      }
+    }
+
+    &.home.active {
+      .tab-icon {
+        background-image: url('./image/homeIconActive.png');
+      }
+    }
+
+    &.order {
+      .tab-icon {
+        background-image: url('./image/orderIcon.png');
+      }
+    }
+
+    &.order.active {
+      .tab-icon {
+        background-image: url('./image/orderIconActive.png');
+      }
+    }
+
+    &.my {
+      .tab-icon {
+        background-image: url('./image/myIcon.png');
+      }
+    }
+
+    &.my.active {
+      .tab-icon {
+        background-image: url('./image/myIconActive.png');
+      }
+    }
+  }
+}
