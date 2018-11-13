@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { connect } from 'react-redux';
 import Home from '../Home';
 import TabBar from '../TabBar';
+import './index.scss';
 
 class Main extends Component {
   render() {

@@ -1,14 +1,17 @@
-import React, { PureComponent, Fragment } from 'react';
+import React, { PureComponent } from 'react';
 import Header from './Header';
 import Category from './Category';
+import ItemList from './ItemList';
+import './index.scss';
 
 class Home extends PureComponent {
   render() {
     return (
-      <Fragment>
+      <div className="home">
         <Header />
         <Category />
-      </Fragment>
+        <ItemList />
+      </div>
     );
   }
 }

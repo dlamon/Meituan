@@ -1,7 +1,7 @@
 module.exports = {
   TABKEY: {
-    home: 'home',
-    order: 'order',
-    my: 'my'
+    home: 'home-item',
+    order: 'order-item',
+    my: 'my-item'
   }
 };

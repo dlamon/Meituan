@@ -27,37 +27,37 @@
       color: #000;
     }
 
-    &.home {
+    &.home-item {
       .tab-icon {
         background-image: url('./image/homeIcon.png');
       }
     }
 
-    &.home.active {
+    &.home-item.active {
       .tab-icon {
         background-image: url('./image/homeIconActive.png');
       }
     }
 
-    &.order {
+    &.order-item {
       .tab-icon {
         background-image: url('./image/orderIcon.png');
       }
     }
 
-    &.order.active {
+    &.order-item.active {
       .tab-icon {
         background-image: url('./image/orderIconActive.png');
       }
     }
 
-    &.my {
+    &.my-item {
       .tab-icon {
         background-image: url('./image/myIcon.png');
       }
     }
 
-    &.my.active {
+    &.my-item.active {
       .tab-icon {
         background-image: url('./image/myIconActive.png');
       }
