@@ -8,6 +8,7 @@ const StyleLintPlugin = require('stylelint-webpack-plugin');
 const rootPath = path.resolve(__dirname);
 const srcPath = path.resolve(__dirname, 'src');
 const publicPath = path.resolve(__dirname, 'public');
+const mockPath = path.resolve(__dirname, 'mock');
 const distPath = path.resolve(__dirname, 'dist');
 const pagesPath = path.resolve(srcPath, 'pages');
 const mainFile = 'index.js';
@@ -47,7 +48,7 @@ const htmlArray = getHtmlArray(entryMap);
 module.exports = {
   mode: 'development',
   devServer: {
-    contentBase: publicPath,
+    contentBase: [mockPath, publicPath],
     hot: true
   },
   entry: entryMap,

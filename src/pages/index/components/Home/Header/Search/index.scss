@@ -1,0 +1,33 @@
+.search {
+  position: relative;
+  width: rem(170px);
+  height: rem(30px);
+  background-color: #fff;
+  border-radius: rem(20px);
+  font-size: rem(14px);
+
+  ::-webkit-input-placeholder {
+    color: #a9a9a9;
+  }
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: rem(14px);
+    height: rem(14px);
+    background-image: url('./image/search.png');
+    background-size: cover;
+    top: rem(7px);
+    left: rem(10px);
+  }
+
+  .input {
+    width: rem(120px);
+    border: none;
+    outline: none;
+    color: #a9a9a9;
+    margin-left: rem(28px);
+    line-height: rem(28px);
+  }
+}

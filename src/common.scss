@@ -3,3 +3,11 @@
   $rem: 37.5px;
   @return ($px / $rem) + rem;
 }
+
+.clearfix:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}

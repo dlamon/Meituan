@@ -1,0 +1,19 @@
+.category-content {
+  .category-item {
+    float: left;
+    width: 25%;
+    padding-top: rem(14px);
+    font-size: rem(13px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .item-icon {
+    width: rem(47px);
+  }
+
+  .item-name {
+    margin-top: rem(14px);
+  }
+}
