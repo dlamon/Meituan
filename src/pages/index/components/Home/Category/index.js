@@ -15,7 +15,7 @@ class Category extends PureComponent {
     items.splice(8);
     return items.map(item => (
       <div className="category-item" key={item.code}>
-        <img alt="icon" className="item-icon" src={item.gray_url} />
+        <img alt="icon" className="item-icon" src={item.url} />
         <div className="item-name">{item.name}</div>
       </div>
     ));
