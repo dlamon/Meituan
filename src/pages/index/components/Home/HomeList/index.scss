@@ -1,0 +1,127 @@
+.home-list {
+  margin-top: rem(10px);
+  overflow: hidden;
+  background-color: #fff;
+  color: #656565;
+
+  .list-title {
+    text-align: center;
+    font-size: rem(16px);
+    margin-top: rem(14px);
+    margin-bottom: rem(5px);
+    color: #333;
+
+    .title-line {
+      display: inline-block;
+      border-bottom: 1px solid #949494;
+      height: rem(1px);
+      width: rem(30px);
+      margin-left: rem(4px);
+      margin-right: rem(4px);
+      margin-bottom: rem(4px);
+    }
+  }
+
+  .list-item {
+    position: relative;
+    display: flex;
+    padding: rem(15px) 0;
+    margin: 0 rem(10px);
+    border-bottom: 1px solid #ccc;
+
+    .item-image {
+      width: rem(75px);
+      height: rem(55px);
+      border: 1px solid #ccc;
+    }
+
+    .brand {
+      position: absolute;
+      top: rem(16px);
+      left: rem(1px);
+      padding: rem(2px);
+      font-size: rem(12px);
+      color: #fff;
+    }
+
+    .brand-pin {
+      background-color: #ffa627;
+    }
+
+    .brand-xin {
+      background-color: #21c56c;
+    }
+
+    .item-info {
+      margin-left: rem(10px);
+      width: 100%;
+
+      .item-title {
+        font-size: rem(16px);
+        color: #333;
+        font-weight: 500;
+        padding-bottom: rem(12px);
+      }
+
+      .item-content {
+        font-size: rem(12px);
+        padding-bottom: rem(8px);
+        // stylelint-disable-next-line
+        .content-score {
+          float: left;
+        }
+
+        .content-month-sale-num {
+          float: left;
+          margin-left: rem(5px);
+        }
+
+        .content-delivery-time {
+          float: right;
+        }
+
+        .content-distance {
+          float: right;
+        }
+      }
+
+      .item-price {
+        font-size: rem(12px);
+        padding-bottom: rem(15px);
+
+        .price-min-tip {
+          float: left;
+        }
+
+        .price-delivery-time {
+          float: left;
+        }
+
+        .item-meituan-flag {
+          float: right;
+          background-color: #ffd161;
+          color: #000;
+          padding: rem(3px);
+          border-radius: rem(3px);
+        }
+      }
+    }
+
+    .item-other {
+      margin-top: rem(7px);
+      font-size: rem(12px);
+      display: flex;
+      align-items: center;
+
+      .other-tag {
+        width: rem(14px);
+        height: rem(14px);
+      }
+
+      .other-desc {
+        margin-left: rem(3px);
+        width: rem(230px);
+      }
+    }
+  }
+}

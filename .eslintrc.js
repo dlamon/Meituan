@@ -35,6 +35,7 @@ module.exports = {
     'function-paren-newline': 0,
     'react/prefer-stateless-function': 0,
     'max-len': [2, 200],
+    'class-methods-use-this': 0,
     'comma-dangle': [
       'error',
       {

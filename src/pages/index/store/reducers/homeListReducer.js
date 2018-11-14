@@ -1,11 +1,11 @@
 const initState = {
-  itemList: []
+  homeList: []
 };
 
 const reducer = (state = initState, action) => {
   switch (action.type) {
     case 'SET_HOME_LIST':
-      return { ...state, itemList: [...action.payload.data.poilist] };
+      return { ...state, homeList: [...action.payload.data.poilist] };
     default:
       return state;
   }

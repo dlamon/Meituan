@@ -14,7 +14,6 @@ function* getHomeList() {
     method: 'get',
     url: './homelist.json'
   });
-  console.log(resp);
   yield put({ type: 'SET_HOME_LIST', payload: resp.data });
 }
 
